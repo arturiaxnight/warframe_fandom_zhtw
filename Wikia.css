@@ -395,22 +395,24 @@ table.tennotable .chevron:first-child {
     transform-origin:bottom left;
     margin-right:-17px
 }
-
-/* Masthead (sysop etc) tags on profile -> cyan (credits goes to User:Yatalu)*/
-.masthead-info span.tag a {
-    color: cyan;
-}
-/* Masthead (sysop etc) tags on profile -> cyan END*/
-
 /* Tags extention */
 a.tag {
 	color: inherit;
 }
 
-.tag img {
-    height: 25px;
-    width: auto;
-    vertical-align: middle;
+.tag.usergroup-bureaucrat {
+	background-color: gold !important;
+	color: black !important;
+}
+
+.tag.usergroup-sysop {
+	background-color: silver !important;
+	color: black !important;
+}
+
+.tag.usergroup-featured {
+	background-color: blue !important;
+	color: white !important;
 }
 
 .i18ndoc {
