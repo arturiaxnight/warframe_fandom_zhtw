@@ -1,0 +1,312 @@
+/* Main page */
+/** General **/
+.mainpage-header {
+    position:relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: black;
+    padding-top: 14px;
+    padding-left: 22px;
+    height: 54px;
+    width: 97.5%;
+    width: -moz-calc(100% - 35px);
+    width: -webkit-calc(100% - 35px);
+    width: -o-calc(100% - 35px);
+    width: calc(100% - 35px);
+    margin-bottom: 5px;
+    margin-top: 19px;
+    font-size:25px;
+    color:white;
+    font-family:'Noto+Sans+TC';
+    font-weight:bold;
+}
+
+.mainpage-header-right {
+    position:absolute;
+    top:0px;
+    right:-20px;
+    height:100%; 
+    width:50px;
+    background:black;
+    transform: skew(30deg);
+}
+
+.mainpage-header-sub {
+    font-size:25px;
+    color:#D50F04;
+    font-family:'Open Sans';
+    font-weight:700;
+}
+
+.mainpage-header-news {
+    margin-bottom: 10px;
+    font-size:25px;
+    color:#D50F04;
+    font-family:'Noto+Sans+TC';
+    font-weight:700;
+    font-weight:bold;
+}
+
+/** Content box **/
+.mainpage-box-content {
+    margin-top: -3px;
+}
+
+.mainpage-box-content .buttons {
+    text-align: center;
+}
+
+.mainpage-box-content .buttons-top {
+    margin-bottom: 15px;
+}
+
+.mainpage-box-content .buttons-bottom {
+    margin-top: 11px;
+}
+
+.mainpage-box-content .button-item {
+    display: inline-block;
+}
+
+.mainpage-box-content .content {
+    margin: 0px auto;
+    text-align: center;
+    width: 670px;
+}
+
+.mainpage-box-content .content-item {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+/** Featured Videos box **/
+.mainpage-box-featuredvideos {
+}
+
+/** Blogs box **/
+.mainpage-box-blogs {
+    margin-bottom: 10px;
+}
+
+.mainpage-box-blogs .wikia-button, .mainpage-box-blogs .more {
+    display: none;
+}
+
+.mainpage-box-blogs .WikiaBlogListing .WikiaBlogListingPost .author-details h2 {
+    font-size:1.1em;
+    line-height:16px
+}
+
+.mainpage-box-blogs .recent {
+    float: left;
+    margin-top: 7px;
+    width: 50%;
+}
+
+.mainpage-box-blogs .popular {
+    float: right;
+    margin-top: 7px;
+    width: 48%;
+    width: -moz-calc(50% - 10px);
+    width: -webkit-calc(50% - 10px);
+    width: -o-calc(50% - 10px);
+    width: calc(50% - 10px);
+}
+
+.mainpage-box-blogs .administration {
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    width: 48%;
+    width: -moz-calc(50% - 10px);
+    width: -webkit-calc(50% - 10px);
+    width: -o-calc(50% - 10px);
+    width: calc(50% - 10px);
+}
+
+.mainpage-box-blogs .WikiaBlogListing {
+    border: 1px solid #c8ced0;
+    margin-top: 9px;
+    background: rgba(255,255,255,0.5);
+}
+
+.mainpage-box-blogs .WikiaBlogListing .WikiaBlogListingPost {
+    border-bottom: 1px solid #749fb0;
+    padding: 15px;
+}
+
+.mainpage-box-blogs .WikiaBlogListingPost:last-child {
+  border: medium none;
+}
+
+.mainpage-box-blogs .author-details h1 {
+    font-size: 15px;
+}
+
+/** Play Free box **/
+.mainpage-box-playfree {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -user-select: none;
+    cursor: pointer;
+    background:#D40001;
+    display: block;
+    transform: skew(30deg);
+    width: 260px;
+    margin: 0 auto 15px;
+    padding:10px 0px;
+    text-align: center;
+}
+
+.mainpage-box-playfree a{
+    vertical-align:middle;
+    font-family:'Open Sans';
+    font-weight: light;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.mainpage-box-playfree:hover {
+    background:#e53b3c;
+}
+
+/** Social Media box **/
+.mainpage-box-socialmedia {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mainpage-box-socialmedia .social-container {
+    margin-left: -12px;
+}
+
+.mainpage-box-socialmedia .social {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.languagemenu ul {	
+	position:relative;
+        padding:0px 5px;
+	margin:0;
+        list-style:none;
+        white-space: nowrap;
+        font-family:'Open Sans';
+        font-size:12px;
+}
+
+.languagemenu ul a {
+        color:black;
+}
+
+.languagemenu ul ul {
+	display: none;
+	position: absolute;
+	background-color:white;
+	background-color:rgba(255,255,255,0.9);
+        margin-left:-5px;
+        text-align:left;
+}
+
+.languagemenu ul li:hover > ul {
+	display:list-item;
+        z-index:5;
+}
+
+
+
+/** News box **/
+.mainpage-box-news {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 0px 4px 10px;
+    border: 1px solid #c8ced0;
+    width: 100%;
+    margin-bottom: 17px;
+    background: rgba(255,255,255,0.5);
+}
+
+.mainpage-box-news .news {
+    margin-bottom: 1px;
+    margin-top: -7px;
+}
+
+.mainpage-box-news .icon {
+    float: left;
+    margin-right: 15px;
+    margin-top: -3px;
+}
+
+/** Alerts box **/
+.mainpage-box-alerts {
+    margin-bottom: 11px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+/** Featured Poll box **/
+.mainpage-box-featuredpoll {
+    margin-bottom: 17px;
+    margin-top: -5px;
+    background: rgba(255,255,255,0.5);
+}
+
+.mainpage-box-featuredpoll .ajax-poll {
+    border: 1px solid #c8ced0;
+    padding-right: 30px;
+}
+
+.mainpage-box-featuredpoll .ajax-poll form {
+    margin-bottom: -20px;
+}
+
+@media (max-width: 1023px) {
+    .mainpage-box-featuredpoll .ajax-poll form {
+        margin-bottom: 0px;
+    }
+}
+
+.mainpage-box-featuredpoll .ajax-poll .pollAnswerVotes div {
+    background: #749fb0;
+}
+
+/** Forum Activity box **/
+#ForumActivityModule h2
+{
+    display: none;
+}
+
+#ForumActivityModule
+{
+    margin: 0 auto 0;
+}
+
+.mainpage-box-forumactivity {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width:300px;
+    margin-bottom: 17px;
+    margin-top: 9px;
+    border: 1px solid #c8ced0;
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+}
+
+/** Recent Activity box **/
+.mainpage-box-recentactivity {
+    margin-bottom: 17px;
+    margin-top: 9px;
+    border: 1px solid #c8ced0;
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+}
